@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+main()
+{
+	int n; 
+	int f =1;
+	printf("Please, enter the number!");
+	scanf("%d",&n);
+	if(n>20) printf("do not write more than 20 \n");
+else{
+	for(int i=1;i<=n;i++)
+	{
+		f= f*i;
+	}
+	printf("%d This is the factorial of the number you entered %d" ,n,f);
+}
