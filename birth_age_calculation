@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()	
+{
+    printf("Enter Year of Birth:\n");
+    int a;
+	scanf("%d",&a);
+	printf("%d you were born this year\n",a);
+	int yas;
+	yas =2022-a;
+	printf("%d you are at this age now\n",yas);
+	getch();
+}
