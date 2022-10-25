@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+main()
+{
+	int vize,final;
+	float ort;
+	printf("Enter vise note:");
+	scanf("%d",&vize);
+	printf("Enter final note:");
+	scanf("%d",&final);
+	ort=vize*0.3+final*0.7;
+	printf("Vize:%d\nFinal:%d",vize,final);
+	printf("\nnot ortalamasi:%f",ort);
+	ort>59?printf("\nYou passed the class"):printf("\nYou missed class");
+	getch();
+}
