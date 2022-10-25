@@ -1,6 +1,6 @@
 [Turkish]
 
-Merhaba 🙋‍♂️!
+Merhaba! 🙋‍♂️
 
 Burada paylaştığım kodlar okuduğum üniversitenin C Programlama dersinde verilen ödevlerin kodlarıdır. Birilerinin bi ara ihtiyacı olur diye paylaşıyorum, iyi kullanımlar!
 
