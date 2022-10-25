@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+main()
+{
+	float a,b;
+	printf("Enter the number A\n");
+	scanf("%f",&a);
+	printf("Enter the number B\n");
+	scanf("%f",&b);
+	
+	printf("a+b=%f\n",a+b);
+	printf("a-b=%f\n",a-b);
+	printf("a*b=%f\n",a*b);
+	printf("a/b=%f\n",a/b);
+	printf("a^b=%f\n",pow(a,b));
+	getch();
+	
+	
+	
+}
