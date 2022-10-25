@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+main()
+{
+	while(1)
+	{
+		int day;
+		printf("1-monday\n2-tuesday\n3-wednesday\n4-thursday\n5-friday\n6-saturday\n7-sunday\n");
+		printf("Write down the number of days you want to see the menu.\n");
+		scanf("%d" ,&gun);
+		if(day==-1)break;
+		  switch(gun)
+		   {
+		   	
+		   	  case 1: printf("Monday: Hamburger, Pasta, Coca Cola.");
+		   	  break;
+		   	  case 2: printf("Tuesday: Pizza, Fried Potatoes, Sprite");
+		   	  break;
+		   	  case 3: printf("Wednesday: Lorem ipsum sit dolor amet.");
+		   	  break;
+		   	  case 4: printf("Thursday: Mantar Corbasi, Lazanya, Baklava");
+		   	  break;
+		   	  case 5: printf("Friday: Sehriyeli,Tavuklu Corba, Ispanak, Cacik, Tatli Yok :))");
+		   	  break;
+		   	  case 6: printf("Saturday: Kabak Dolmasi, Yogurt, Halka Tatlisi");
+		   	  break;
+		   	  case 7: printf("Sunday: Not Food.");
+		   	  break;
+		   	
+                       default: printf("enter any number from 1 to 7");
+		   }
+		  	
+	}
+}
