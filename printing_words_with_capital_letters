@@ -8,7 +8,7 @@ main()
 	printf("your name: %s\n",name);
 	int i;
 	for(i=0;i<20;i++)
-	{if (name[i]>96) ad[i]-=32;}
+	{if (name[i]>96) name[i]-=32;}
 	printf("your name: %s" ,name);
 	getch();
 }
