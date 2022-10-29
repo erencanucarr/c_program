@@ -4,7 +4,7 @@ main()
 {
 	char name[20];
 	printf("Name:");
-	scanf("%s",&ad);
+	scanf("%s",&name);
 	printf("your name: %s\n",name);
 	int i;
 	for(i=0;i<20;i++)
