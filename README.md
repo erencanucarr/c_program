@@ -13,7 +13,7 @@ Kodların Türkçeleri;
 - 🔵 For And Math Fact - For Komutu İle Matematik Faktoriyel Hesaplama Sistemi
 - 🟣 While And Math Fact - While Komutu İle Matematik Faktoriyel Hesaplama Sistemi
 - ⚪️ Introduce Yourself - Kendinizi Tanıtabiliceğiniz Alt Alta Yazdıran Sistem.
-
+- ⚫️ Printing Words With Capital Letters - Küçük Harfle Yazılan Kelimeleri Büyük Harfle Yazdırmak.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
