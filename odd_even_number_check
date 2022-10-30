@@ -1,0 +1,16 @@
+#include<stdio.h>
+int sole(int a)
+{    
+		if(a%2==0) return 0;
+	    else return 1;
+}
+
+main()
+{
+	printf("Enter Number to Test:");
+	int x;
+	scanf("%d",&x);
+	if(sole(x)) printf("%d this number is sole\n",x);
+	else printf("%d this number is not sole\n",x);
+	getch();
+}
