@@ -7,9 +7,9 @@ main()
 		int day;
 		printf("1-monday\n2-tuesday\n3-wednesday\n4-thursday\n5-friday\n6-saturday\n7-sunday\n");
 		printf("Write down the number of days you want to see the menu.\n");
-		scanf("%d" ,&gun);
+		scanf("%d" ,&day);
 		if(day==-1)break;
-		  switch(gun)
+		  switch(day)
 		   {
 		   	
 		   	  case 1: printf("Monday: Hamburger, Pasta, Coca Cola.");
